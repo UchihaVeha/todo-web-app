@@ -6,7 +6,7 @@ import FilterByDate from './FilterByDate';
 
 describe('TodoFilters/FilterByDate component', () => {
   let wrapper;
-  const date = '2017-10-28T21:00:00.000Z';
+  const date = '2017-10-29T00:00:00.000Z';
   const prevDay = 'Sat Oct 28 2017';
   const nextDay = 'Mon Oct 30 2017';
 

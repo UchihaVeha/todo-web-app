@@ -65,7 +65,7 @@ exports[`TodoFilters/FilterByDate component should render component 1`] = `
     onChange={[Function]}
     openToYearSelection={false}
     style={Object {}}
-    value={2017-10-28T21:00:00.000Z}
+    value={2017-10-29T00:00:00.000Z}
   />
 </div>
 `;
@@ -80,6 +80,6 @@ exports[`TodoFilters/FilterByDate component should render withStyles 1`] = `
       "pointed": "FilterByDate-pointed-2",
     }
   }
-  value="2017-10-28T21:00:00.000Z"
+  value="2017-10-29T00:00:00.000Z"
 />
 `;
