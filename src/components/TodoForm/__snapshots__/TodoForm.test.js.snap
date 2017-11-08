@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoForm component should render component 1`] = `
+<withStyles(Paper)>
+  <TextField
+    error={false}
+    fullWidth={true}
+    helperText=""
+    label="Title"
+    name="title"
+    onBlur={[Function]}
+    onChange={[Function]}
+    required={true}
+    select={false}
+    value="test"
+  />
+  <DatePicker
+    autoOk={true}
+    container="inline"
+    disableYearSelection={false}
+    disabled={false}
+    firstDayOfWeek={1}
+    floatingLabelText="Date"
+    hideCalendarDate={false}
+    onChange={[Function]}
+    openToYearSelection={false}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    textFieldStyle={
+      Object {
+        "width": "100%",
+      }
+    }
+    value={2017-10-31T22:00:00.000Z}
+  />
+  <withStyles(FormControl)
+    fullWidth={true}
+  >
+    <withStyles(FormControlLabel)
+      checked={false}
+      control={
+        <withStyles(Checkbox)
+          tabIndex="-1"
+        />
+      }
+      label="Is completed"
+      name="isCompleted"
+      onChange={[Function]}
+    />
+  </withStyles(FormControl)>
+  <withStyles(TagsPicker)
+    error={null}
+    onAddTag={[Function]}
+    onRemoveTag={[Function]}
+    tags={Array []}
+  />
+  <div>
+    <withStyles(Button)
+      color="primary"
+      onClick={[Function]}
+      raised={true}
+    >
+      Create
+    </withStyles(Button)>
+    <withStyles(Button)
+      onClick={[Function]}
+      raised={true}
+    >
+      Cancel
+    </withStyles(Button)>
+  </div>
+</withStyles(Paper)>
+`;

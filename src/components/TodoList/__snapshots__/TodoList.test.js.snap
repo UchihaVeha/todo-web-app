@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList component should render component 1`] = `
+<div>
+  <withStyles(Paper)
+    className="TodoList-list-1"
+  >
+    <div
+      className="TodoList-centered-2"
+    >
+      <span>
+        No items
+      </span>
+    </div>
+    <withStyles(List) />
+  </withStyles(Paper)>
+</div>
+`;
+
+exports[`TodoList component should render pure 1`] = `
+<withStyles(TodoList)
+  isLoading={false}
+  todoIds={Immutable.OrderedMap {}}
+/>
+`;
+
+exports[`TodoList component should render withStyles 1`] = `
+<TodoList
+  classes={
+    Object {
+      "centered": "TodoList-centered-2",
+      "list": "TodoList-list-1",
+    }
+  }
+  isLoading={false}
+  todoIds={Immutable.OrderedMap {}}
+/>
+`;

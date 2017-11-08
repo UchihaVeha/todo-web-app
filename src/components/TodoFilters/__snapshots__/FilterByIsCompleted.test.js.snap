@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoFilters/FilterByIsCompleted component should render component 1`] = `
+<RadioGroup
+  className="FilterByIsCompleted-root-1"
+  onChange={[Function]}
+  row={true}
+>
+  <withStyles(FormControlLabel)
+    classes={
+      Object {
+        "label": "FilterByIsCompleted-label-2",
+      }
+    }
+    control={
+      <Radio
+        checkedClassName="FilterByIsCompleted-checked-3"
+        className="FilterByIsCompleted-label-2"
+      />
+    }
+    label="All"
+    value="all"
+  />
+  <withStyles(FormControlLabel)
+    classes={
+      Object {
+        "label": "FilterByIsCompleted-label-2",
+      }
+    }
+    control={
+      <Radio
+        checkedClassName="FilterByIsCompleted-checked-3"
+        className="FilterByIsCompleted-label-2"
+      />
+    }
+    label="Completed"
+    value="completed"
+  />
+  <withStyles(FormControlLabel)
+    classes={
+      Object {
+        "label": "FilterByIsCompleted-label-2",
+      }
+    }
+    control={
+      <Radio
+        checkedClassName="FilterByIsCompleted-checked-3"
+        className="FilterByIsCompleted-label-2"
+      />
+    }
+    label="Not completed"
+    value="notCompleted"
+  />
+</RadioGroup>
+`;
+
+exports[`TodoFilters/FilterByIsCompleted component should render pure 1`] = `<withHandlers(withStyles(FilterByIsCompletedComponent)) />`;
+
+exports[`TodoFilters/FilterByIsCompleted component should render withHandlers 1`] = `
+<withStyles(FilterByIsCompletedComponent)
+  onChangeHandler={[Function]}
+/>
+`;
+
+exports[`TodoFilters/FilterByIsCompleted component should render withStyles 1`] = `
+<FilterByIsCompletedComponent
+  classes={
+    Object {
+      "checked": "FilterByIsCompleted-checked-3",
+      "label": "FilterByIsCompleted-label-2",
+      "root": "FilterByIsCompleted-root-1",
+    }
+  }
+  onChangeHandler={[Function]}
+/>
+`;

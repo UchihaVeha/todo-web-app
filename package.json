@@ -1,0 +1,129 @@
+{
+  "name": "time-logger-web",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "author": "Vitaliy Kolodeyev",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npm run lint & npx jest",
+    "test:watch": "npx jest --watch --verbose",
+    "start:dev": "node webpack/webpack-dev-server",
+    "build:client": "export NODE_ENV=production; npx webpack --progress --profile --colors",
+    "build:server": "npx babel src/server.js -o server.js --no-babelrc --plugins transform-es2015-modules-commonjs",
+    "build": "npm run build:client & npm run build:server & wait",
+    "lint": "npx eslint -c .eslintrc src",
+    "prettify": "npx prettier --single-quote --trailing-comma none --write \"src/**/*.js\"",
+    "storybook": "start-storybook -p 9001 -c ./storybook",
+    "flow": "npx flow"
+  },
+  "resolutions": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "immutable": "4.0.0-rc.9",
+    "joi-browser": "^13.0.1",
+    "jss": "^8.1.0",
+    "jss-preset-default": "^3.0.0",
+    "keycode": "^2.1.9",
+    "lodash": "^4.17.4",
+    "material-ui": "^1.0.0-beta.20",
+    "material-ui-before": "npm:material-ui#19.4",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "normalize-jss": "^4.0.0",
+    "normalizr": "^3.2.4",
+    "pm2": "^2.7.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-router-redux": "5.0.0-alpha.8",
+    "recompose": "^0.26.0",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.2.2",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1",
+    "typeface-roboto": "^0.0.43"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.2.14",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-flow-react-proptypes": "^9.0.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.10",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.5",
+    "enzyme": "^3.1.1",
+    "enzyme-adapter-react-16": "^1.0.4",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-react": "^7.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "flow-bin": "0.58.0",
+    "jest": "^21.2.1",
+    "jest-enzyme": "^4.0.1",
+    "prettier": "^1.8.1",
+    "prop-types": "^15.5.10",
+    "raf": "^3.4.0",
+    "react-addons-perf": "^15.4.2",
+    "react-hot-loader": "^3.1.1",
+    "react-test-renderer": "^16.0.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga-devtools": "^0.1.2",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "json",
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "src",
+      "node_modules"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!redux-saga)"
+    ],
+    "setupFiles": [
+      "raf/polyfill",
+      "./testSetup"
+    ],
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/__mocks__",
+      "<rootDir>/public",
+      "<rootDir>/storybook",
+      "<rootDir>/webpack"
+    ],
+    "globals": {
+      "__DEV__": true,
+      "__PROD__": false
+    }
+  }
+}

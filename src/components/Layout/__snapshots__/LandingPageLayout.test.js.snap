@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout/LandingPageLayout component should render component 1`] = `
+<div
+  className="LandingPageLayout-root-1"
+>
+  <withStyles(GridWrapper)
+    container={true}
+    direction="column"
+  >
+    <withStyles(GridWrapper)
+      item={true}
+      lg={12}
+    >
+      <h1>
+        Header
+      </h1>
+    </withStyles(GridWrapper)>
+    <withStyles(GridWrapper)
+      className="LandingPageLayout-content-2"
+      item={true}
+      lg={12}
+    >
+      <span>
+        Content
+      </span>
+    </withStyles(GridWrapper)>
+    <withStyles(GridWrapper)
+      item={true}
+      lg={12}
+    >
+      <h1>
+        Footer
+      </h1>
+    </withStyles(GridWrapper)>
+  </withStyles(GridWrapper)>
+</div>
+`;
+
+exports[`Layout/LandingPageLayout component should render withStyles 1`] = `
+<LandingPageLayout
+  classes={
+    Object {
+      "content": "LandingPageLayout-content-2",
+      "root": "LandingPageLayout-root-1",
+    }
+  }
+>
+  <span>
+    Content
+  </span>
+</LandingPageLayout>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppMenu component should have enhance 1`] = `<withStyles(AppMenuComponent) />`;
+
+exports[`AppMenu component should have menu items 1`] = `
+Array [
+  Object {
+    "title": "Home",
+    "url": "/",
+  },
+]
+`;
+
+exports[`AppMenu component should render component 1`] = `
+<withStyles(Drawer)
+  ModalProps={
+    Object {
+      "keepMounted": true,
+    }
+  }
+  classes={
+    Object {
+      "paper": undefined,
+    }
+  }
+  onRequestClose={[Function]}
+  open={false}
+>
+  <withStyles(List)>
+    <withStyles(ListItem)
+      disableGutters={true}
+      key="/"
+    >
+      <withStyles(Button)
+        component={[Function]}
+        disableRipple={true}
+        to="/"
+      >
+        Home
+      </withStyles(Button)>
+    </withStyles(ListItem)>
+  </withStyles(List)>
+</withStyles(Drawer)>
+`;

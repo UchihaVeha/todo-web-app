@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout/AppLayout component should render component 1`] = `
+<div>
+  <div>
+    <pure(withStyles(AppMenuComponent))
+      handleMenuToggle={[Function]}
+      open={false}
+    />
+    <withStyles(AppBar)
+      position="static"
+    >
+      <withStyles(Toolbar)>
+        <withStyles(IconButton)
+          aria-label="Menu"
+          color="contrast"
+          onClick={[Function]}
+        >
+          <pure(Menu) />
+        </withStyles(IconButton)>
+      </withStyles(Toolbar)>
+      <withStyles(Toolbar)>
+        <Component />
+      </withStyles(Toolbar)>
+    </withStyles(AppBar)>
+    <div>
+      <Component />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Layout/AppLayout component should render with enhances 1`] = `
+<withState(withHandlers(withStyles(AppLayoutComponent)))
+  appBar={[Function]}
+  content={[Function]}
+/>
+`;

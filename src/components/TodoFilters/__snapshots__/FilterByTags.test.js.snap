@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoFilters/FilterByTags component should render component 1`] = `
+<withStyles(FormControl)
+  className="FilterByTags-formControl-2"
+>
+  <withStyles(InputLabel)
+    htmlFor="age-simple"
+  >
+    Tags
+  </withStyles(InputLabel)>
+  <withStyles(Select)
+    className="FilterByTags-select-1"
+    displayEmpty={true}
+    multiple={true}
+    onChange={[Function]}
+    value={Array []}
+  />
+</withStyles(FormControl)>
+`;
+
+exports[`TodoFilters/FilterByTags component should render withStyles 1`] = `
+<FilterByTags
+  classes={
+    Object {
+      ".FilterByTags-select-1 button": "FilterByTags-select-1 button",
+      ".FilterByTags-select-1 div": "FilterByTags-select-1 div",
+      ".FilterByTags-select-1 hr": "FilterByTags-select-1 hr",
+      "formControl": "FilterByTags-formControl-2",
+      "select": "FilterByTags-select-1",
+    }
+  }
+  tags={Immutable.List []}
+  value={Immutable.List []}
+/>
+`;

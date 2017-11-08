@@ -1,0 +1,1109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList/TodoListItem component should render component 1`] = `
+<ListItem
+  button={true}
+  classes={
+    Object {
+      ".MuiListItem-button-10:hover": "MuiListItem-button-10:hover",
+      ".MuiListItem-button-10:hover.MuiListItem-disabled-7": "MuiListItem-button-10:hover.MuiListItem-disabled-7",
+      "button": "MuiListItem-button-10",
+      "container": "MuiListItem-container-3",
+      "default": "MuiListItem-default-5",
+      "dense": "MuiListItem-dense-6",
+      "disabled": "MuiListItem-disabled-7",
+      "divider": "MuiListItem-divider-8",
+      "gutters": "MuiListItem-gutters-9",
+      "keyboardFocused": "MuiListItem-keyboardFocused-4",
+      "root": "MuiListItem-root-2",
+      "secondaryAction": "MuiListItem-secondaryAction-11",
+    }
+  }
+  component="li"
+  dense={false}
+  disableGutters={true}
+  disabled={false}
+  divider={true}
+  onClick={[Function]}
+>
+  <div
+    className="MuiListItem-container-3"
+  >
+    <withStyles(ButtonBase)
+      className="MuiListItem-root-2 MuiListItem-divider-8 MuiListItem-button-10 MuiListItem-secondaryAction-11 MuiListItem-default-5"
+      component="li"
+      disabled={false}
+      keyboardFocusedClassName="MuiListItem-keyboardFocused-4"
+      onClick={[Function]}
+    >
+      <ButtonBase
+        centerRipple={false}
+        className="MuiListItem-root-2 MuiListItem-divider-8 MuiListItem-button-10 MuiListItem-secondaryAction-11 MuiListItem-default-5"
+        classes={
+          Object {
+            ".MuiButtonBase-root-12::-moz-focus-inner": "MuiButtonBase-root-12::-moz-focus-inner",
+            "disabled": "MuiButtonBase-disabled-13",
+            "root": "MuiButtonBase-root-12",
+          }
+        }
+        component="li"
+        disableRipple={false}
+        disabled={false}
+        focusRipple={false}
+        keyboardFocusedClassName="MuiListItem-keyboardFocused-4"
+        onClick={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <li
+          className="MuiButtonBase-root-12 MuiListItem-root-2 MuiListItem-divider-8 MuiListItem-button-10 MuiListItem-secondaryAction-11 MuiListItem-default-5"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <withStyles(Checkbox)
+            checked={false}
+            disableRipple={true}
+            key=".0"
+            tabIndex="-1"
+          >
+            <Checkbox
+              checked={false}
+              classes={
+                Object {
+                  "checked": "MuiCheckbox-checked-15",
+                  "default": "MuiCheckbox-default-14",
+                  "disabled": "MuiCheckbox-disabled-16",
+                }
+              }
+              disableRipple={true}
+              indeterminate={false}
+              indeterminateIcon={<pure(IndeterminateCheckBox) />}
+              tabIndex="-1"
+            >
+              <withStyles(SwitchBase)
+                checked={false}
+                checkedIcon={undefined}
+                classes={
+                  Object {
+                    "checked": "MuiCheckbox-checked-15",
+                    "default": "MuiCheckbox-default-14",
+                    "disabled": "MuiCheckbox-disabled-16",
+                  }
+                }
+                disableRipple={true}
+                icon={undefined}
+                tabIndex="-1"
+              >
+                <SwitchBase
+                  checked={false}
+                  checkedIcon={<pure(CheckBox) />}
+                  classes={
+                    Object {
+                      "checked": "MuiSwitchBase-checked-20 MuiCheckbox-checked-15",
+                      "default": "MuiSwitchBase-default-19 MuiCheckbox-default-14",
+                      "disabled": "MuiSwitchBase-disabled-21 MuiCheckbox-disabled-16",
+                      "input": "MuiSwitchBase-input-18",
+                      "root": "MuiSwitchBase-root-17",
+                    }
+                  }
+                  disableRipple={true}
+                  icon={<pure(CheckBoxOutlineBlank) />}
+                  tabIndex="-1"
+                >
+                  <withStyles(IconButton)
+                    className="MuiSwitchBase-root-17 MuiSwitchBase-default-19 MuiCheckbox-default-14"
+                    component="span"
+                    disableRipple={true}
+                    disabled={undefined}
+                    role={undefined}
+                    rootRef={[Function]}
+                    tabIndex={null}
+                  >
+                    <IconButton
+                      className="MuiSwitchBase-root-17 MuiSwitchBase-default-19 MuiCheckbox-default-14"
+                      classes={
+                        Object {
+                          "colorAccent": "MuiIconButton-colorAccent-23",
+                          "colorContrast": "MuiIconButton-colorContrast-24",
+                          "colorInherit": "MuiIconButton-colorInherit-26",
+                          "colorPrimary": "MuiIconButton-colorPrimary-25",
+                          "disabled": "MuiIconButton-disabled-27",
+                          "icon": "MuiIconButton-icon-29",
+                          "keyboardFocused": "MuiIconButton-keyboardFocused-30",
+                          "label": "MuiIconButton-label-28",
+                          "root": "MuiIconButton-root-22",
+                        }
+                      }
+                      color="default"
+                      component="span"
+                      disableRipple={true}
+                      disabled={false}
+                      role={undefined}
+                      rootRef={[Function]}
+                      tabIndex={null}
+                    >
+                      <withStyles(ButtonBase)
+                        centerRipple={true}
+                        className="MuiIconButton-root-22 MuiSwitchBase-root-17 MuiSwitchBase-default-19 MuiCheckbox-default-14"
+                        component="span"
+                        disableRipple={true}
+                        disabled={false}
+                        keyboardFocusedClassName="MuiIconButton-keyboardFocused-30"
+                        role={undefined}
+                        rootRef={undefined}
+                        tabIndex={null}
+                      >
+                        <ButtonBase
+                          centerRipple={true}
+                          className="MuiIconButton-root-22 MuiSwitchBase-root-17 MuiSwitchBase-default-19 MuiCheckbox-default-14"
+                          classes={
+                            Object {
+                              ".MuiButtonBase-root-12::-moz-focus-inner": "MuiButtonBase-root-12::-moz-focus-inner",
+                              "disabled": "MuiButtonBase-disabled-13",
+                              "root": "MuiButtonBase-root-12",
+                            }
+                          }
+                          component="span"
+                          disableRipple={true}
+                          disabled={false}
+                          focusRipple={false}
+                          keyboardFocusedClassName="MuiIconButton-keyboardFocused-30"
+                          role={undefined}
+                          rootRef={undefined}
+                          tabIndex={null}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButtonBase-root-12 MuiIconButton-root-22 MuiSwitchBase-root-17 MuiSwitchBase-default-19 MuiCheckbox-default-14"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            role={undefined}
+                            tabIndex={null}
+                          >
+                            <span
+                              className="MuiIconButton-label-28"
+                            >
+                              <pure(CheckBoxOutlineBlank)
+                                className="MuiIconButton-icon-29"
+                                key=".0"
+                              >
+                                <CheckBoxOutlineBlank
+                                  className="MuiIconButton-icon-29"
+                                >
+                                  <withStyles(SvgIcon)
+                                    className="MuiIconButton-icon-29"
+                                  >
+                                    <SvgIcon
+                                      className="MuiIconButton-icon-29"
+                                      classes={
+                                        Object {
+                                          "root": "MuiSvgIcon-root-31",
+                                        }
+                                      }
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        className="MuiSvgIcon-root-31 MuiIconButton-icon-29"
+                                        focusable="false"
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <path
+                                          d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                                        />
+                                      </svg>
+                                    </SvgIcon>
+                                  </withStyles(SvgIcon)>
+                                </CheckBoxOutlineBlank>
+                              </pure(CheckBoxOutlineBlank)>
+                              <input
+                                checked={false}
+                                className="MuiSwitchBase-input-18"
+                                disabled={undefined}
+                                key=".1"
+                                name={undefined}
+                                onChange={[Function]}
+                                tabIndex="-1"
+                                type="checkbox"
+                                value={undefined}
+                              />
+                            </span>
+                          </span>
+                        </ButtonBase>
+                      </withStyles(ButtonBase)>
+                    </IconButton>
+                  </withStyles(IconButton)>
+                </SwitchBase>
+              </withStyles(SwitchBase)>
+            </Checkbox>
+          </withStyles(Checkbox)>
+          <withStyles(ListItemText)
+            key=".1"
+            primary="test"
+            secondary={Array []}
+          >
+            <ListItemText
+              classes={
+                Object {
+                  ".MuiListItemText-inset-33:first-child": "MuiListItemText-inset-33:first-child",
+                  ".MuiListItemText-root-32:first-child": "MuiListItemText-root-32:first-child",
+                  "dense": "MuiListItemText-dense-34",
+                  "inset": "MuiListItemText-inset-33",
+                  "root": "MuiListItemText-root-32",
+                  "text": "MuiListItemText-text-35",
+                  "textDense": "MuiListItemText-textDense-36",
+                }
+              }
+              disableTypography={false}
+              inset={false}
+              primary="test"
+              secondary={Array []}
+            >
+              <div
+                className="MuiListItemText-root-32"
+              >
+                <withStyles(Typography)
+                  className="MuiListItemText-text-35"
+                  type="subheading"
+                >
+                  <Typography
+                    align="inherit"
+                    className="MuiListItemText-text-35"
+                    classes={
+                      Object {
+                        "alignCenter": "MuiTypography-alignCenter-50",
+                        "alignJustify": "MuiTypography-alignJustify-52",
+                        "alignLeft": "MuiTypography-alignLeft-49",
+                        "alignRight": "MuiTypography-alignRight-51",
+                        "body1": "MuiTypography-body1-46",
+                        "body2": "MuiTypography-body2-45",
+                        "button": "MuiTypography-button-48",
+                        "caption": "MuiTypography-caption-47",
+                        "colorAccent": "MuiTypography-colorAccent-59",
+                        "colorError": "MuiTypography-colorError-60",
+                        "colorInherit": "MuiTypography-colorInherit-56",
+                        "colorPrimary": "MuiTypography-colorPrimary-57",
+                        "colorSecondary": "MuiTypography-colorSecondary-58",
+                        "display1": "MuiTypography-display1-41",
+                        "display2": "MuiTypography-display2-40",
+                        "display3": "MuiTypography-display3-39",
+                        "display4": "MuiTypography-display4-38",
+                        "gutterBottom": "MuiTypography-gutterBottom-54",
+                        "headline": "MuiTypography-headline-42",
+                        "noWrap": "MuiTypography-noWrap-53",
+                        "paragraph": "MuiTypography-paragraph-55",
+                        "root": "MuiTypography-root-37",
+                        "subheading": "MuiTypography-subheading-44",
+                        "title": "MuiTypography-title-43",
+                      }
+                    }
+                    color="default"
+                    gutterBottom={false}
+                    headlineMapping={
+                      Object {
+                        "body1": "p",
+                        "body2": "aside",
+                        "display1": "h1",
+                        "display2": "h1",
+                        "display3": "h1",
+                        "display4": "h1",
+                        "headline": "h1",
+                        "subheading": "h3",
+                        "title": "h2",
+                      }
+                    }
+                    noWrap={false}
+                    paragraph={false}
+                    type="subheading"
+                  >
+                    <h3
+                      className="MuiTypography-root-37 MuiTypography-subheading-44 MuiListItemText-text-35"
+                    >
+                      test
+                    </h3>
+                  </Typography>
+                </withStyles(Typography)>
+                <withStyles(Typography)
+                  className="MuiListItemText-text-35"
+                  color="secondary"
+                  type="body1"
+                >
+                  <Typography
+                    align="inherit"
+                    className="MuiListItemText-text-35"
+                    classes={
+                      Object {
+                        "alignCenter": "MuiTypography-alignCenter-50",
+                        "alignJustify": "MuiTypography-alignJustify-52",
+                        "alignLeft": "MuiTypography-alignLeft-49",
+                        "alignRight": "MuiTypography-alignRight-51",
+                        "body1": "MuiTypography-body1-46",
+                        "body2": "MuiTypography-body2-45",
+                        "button": "MuiTypography-button-48",
+                        "caption": "MuiTypography-caption-47",
+                        "colorAccent": "MuiTypography-colorAccent-59",
+                        "colorError": "MuiTypography-colorError-60",
+                        "colorInherit": "MuiTypography-colorInherit-56",
+                        "colorPrimary": "MuiTypography-colorPrimary-57",
+                        "colorSecondary": "MuiTypography-colorSecondary-58",
+                        "display1": "MuiTypography-display1-41",
+                        "display2": "MuiTypography-display2-40",
+                        "display3": "MuiTypography-display3-39",
+                        "display4": "MuiTypography-display4-38",
+                        "gutterBottom": "MuiTypography-gutterBottom-54",
+                        "headline": "MuiTypography-headline-42",
+                        "noWrap": "MuiTypography-noWrap-53",
+                        "paragraph": "MuiTypography-paragraph-55",
+                        "root": "MuiTypography-root-37",
+                        "subheading": "MuiTypography-subheading-44",
+                        "title": "MuiTypography-title-43",
+                      }
+                    }
+                    color="secondary"
+                    gutterBottom={false}
+                    headlineMapping={
+                      Object {
+                        "body1": "p",
+                        "body2": "aside",
+                        "display1": "h1",
+                        "display2": "h1",
+                        "display3": "h1",
+                        "display4": "h1",
+                        "headline": "h1",
+                        "subheading": "h3",
+                        "title": "h2",
+                      }
+                    }
+                    noWrap={false}
+                    paragraph={false}
+                    type="body1"
+                  >
+                    <p
+                      className="MuiTypography-root-37 MuiTypography-body1-46 MuiTypography-colorSecondary-58 MuiListItemText-text-35"
+                    />
+                  </Typography>
+                </withStyles(Typography)>
+              </div>
+            </ListItemText>
+          </withStyles(ListItemText)>
+          <withStyles(TouchRipple)
+            center={false}
+            innerRef={[Function]}
+          >
+            <TouchRipple
+              center={false}
+              classes={
+                Object {
+                  "0%": "%",
+                  "100%": "00%",
+                  "50%": "0%",
+                  "ripple": "MuiTouchRipple-ripple-65",
+                  "rippleFast": "MuiTouchRipple-rippleFast-67",
+                  "rippleVisible": "MuiTouchRipple-rippleVisible-66",
+                  "root": "MuiTouchRipple-root-61",
+                  "wrapper": "MuiTouchRipple-wrapper-62",
+                  "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-63",
+                  "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-64",
+                }
+              }
+            >
+              <TransitionGroup
+                childFactory={[Function]}
+                className="MuiTouchRipple-root-61"
+                component="span"
+                enter={true}
+                exit={true}
+              >
+                <span
+                  className="MuiTouchRipple-root-61"
+                />
+              </TransitionGroup>
+            </TouchRipple>
+          </withStyles(TouchRipple)>
+        </li>
+      </ButtonBase>
+    </withStyles(ButtonBase)>
+    <withStyles(ListItemSecondaryAction)
+      key=".2"
+    >
+      <ListItemSecondaryAction
+        classes={
+          Object {
+            "root": "MuiListItemSecondaryAction-root-68",
+          }
+        }
+      >
+        <div
+          className="MuiListItemSecondaryAction-root-68"
+        >
+          <TodoListItemMenu
+            handleDeleteClick={[Function]}
+            handleEditClick={[Function]}
+          >
+            <div>
+              <withStyles(IconButton)
+                aria-haspopup="true"
+                aria-label="More"
+                aria-owns={null}
+                onClick={[Function]}
+              >
+                <IconButton
+                  aria-haspopup="true"
+                  aria-label="More"
+                  aria-owns={null}
+                  classes={
+                    Object {
+                      "colorAccent": "MuiIconButton-colorAccent-23",
+                      "colorContrast": "MuiIconButton-colorContrast-24",
+                      "colorInherit": "MuiIconButton-colorInherit-26",
+                      "colorPrimary": "MuiIconButton-colorPrimary-25",
+                      "disabled": "MuiIconButton-disabled-27",
+                      "icon": "MuiIconButton-icon-29",
+                      "keyboardFocused": "MuiIconButton-keyboardFocused-30",
+                      "label": "MuiIconButton-label-28",
+                      "root": "MuiIconButton-root-22",
+                    }
+                  }
+                  color="default"
+                  disableRipple={false}
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <withStyles(ButtonBase)
+                    aria-haspopup="true"
+                    aria-label="More"
+                    aria-owns={null}
+                    centerRipple={true}
+                    className="MuiIconButton-root-22"
+                    disableRipple={false}
+                    disabled={false}
+                    keyboardFocusedClassName="MuiIconButton-keyboardFocused-30"
+                    onClick={[Function]}
+                    rootRef={undefined}
+                  >
+                    <ButtonBase
+                      aria-haspopup="true"
+                      aria-label="More"
+                      aria-owns={null}
+                      centerRipple={true}
+                      className="MuiIconButton-root-22"
+                      classes={
+                        Object {
+                          ".MuiButtonBase-root-12::-moz-focus-inner": "MuiButtonBase-root-12::-moz-focus-inner",
+                          "disabled": "MuiButtonBase-disabled-13",
+                          "root": "MuiButtonBase-root-12",
+                        }
+                      }
+                      disableRipple={false}
+                      disabled={false}
+                      focusRipple={false}
+                      keyboardFocusedClassName="MuiIconButton-keyboardFocused-30"
+                      onClick={[Function]}
+                      rootRef={undefined}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <button
+                        aria-haspopup="true"
+                        aria-label="More"
+                        aria-owns={null}
+                        className="MuiButtonBase-root-12 MuiIconButton-root-22"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        role="button"
+                        tabIndex={0}
+                        type="button"
+                      >
+                        <span
+                          className="MuiIconButton-label-28"
+                        >
+                          <pure(MoreVert)
+                            className="MuiIconButton-icon-29"
+                            key=".0"
+                          >
+                            <MoreVert
+                              className="MuiIconButton-icon-29"
+                            >
+                              <withStyles(SvgIcon)
+                                className="MuiIconButton-icon-29"
+                              >
+                                <SvgIcon
+                                  className="MuiIconButton-icon-29"
+                                  classes={
+                                    Object {
+                                      "root": "MuiSvgIcon-root-31",
+                                    }
+                                  }
+                                  viewBox="0 0 24 24"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    className="MuiSvgIcon-root-31 MuiIconButton-icon-29"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                                    />
+                                  </svg>
+                                </SvgIcon>
+                              </withStyles(SvgIcon)>
+                            </MoreVert>
+                          </pure(MoreVert)>
+                        </span>
+                        <withStyles(TouchRipple)
+                          center={true}
+                          innerRef={[Function]}
+                        >
+                          <TouchRipple
+                            center={true}
+                            classes={
+                              Object {
+                                "0%": "%",
+                                "100%": "00%",
+                                "50%": "0%",
+                                "ripple": "MuiTouchRipple-ripple-65",
+                                "rippleFast": "MuiTouchRipple-rippleFast-67",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible-66",
+                                "root": "MuiTouchRipple-root-61",
+                                "wrapper": "MuiTouchRipple-wrapper-62",
+                                "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-63",
+                                "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-64",
+                              }
+                            }
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              className="MuiTouchRipple-root-61"
+                              component="span"
+                              enter={true}
+                              exit={true}
+                            >
+                              <span
+                                className="MuiTouchRipple-root-61"
+                              />
+                            </TransitionGroup>
+                          </TouchRipple>
+                        </withStyles(TouchRipple)>
+                      </button>
+                    </ButtonBase>
+                  </withStyles(ButtonBase)>
+                </IconButton>
+              </withStyles(IconButton)>
+              <withStyles(Menu)
+                anchorEl={null}
+                id="todo-list-item-menu"
+                onRequestClose={[Function]}
+                open={false}
+              >
+                <Menu
+                  anchorEl={null}
+                  classes={
+                    Object {
+                      "paper": "MuiMenu-paper-69",
+                    }
+                  }
+                  id="todo-list-item-menu"
+                  onRequestClose={[Function]}
+                  open={false}
+                  theme={
+                    Object {
+                      "breakpoints": Object {
+                        "between": [Function],
+                        "down": [Function],
+                        "keys": Array [
+                          "xs",
+                          "sm",
+                          "md",
+                          "lg",
+                          "xl",
+                        ],
+                        "only": [Function],
+                        "up": [Function],
+                        "values": Object {
+                          "lg": 1280,
+                          "md": 960,
+                          "sm": 600,
+                          "xl": 1920,
+                          "xs": 360,
+                        },
+                        "width": [Function],
+                      },
+                      "direction": "ltr",
+                      "mixins": Object {
+                        "gutters": [Function],
+                        "toolbar": Object {
+                          "@media (min-width:0px) and (orientation: landscape)": Object {
+                            "minHeight": 48,
+                          },
+                          "@media (min-width:600px)": Object {
+                            "minHeight": 64,
+                          },
+                          "minHeight": 56,
+                        },
+                      },
+                      "palette": Object {
+                        "action": Object {
+                          "active": "rgba(0, 0, 0, 0.54)",
+                          "disabled": "rgba(0, 0, 0, 0.26)",
+                        },
+                        "background": Object {
+                          "appBar": "#f5f5f5",
+                          "contentFrame": "#eeeeee",
+                          "default": "#fafafa",
+                          "paper": "#fff",
+                        },
+                        "common": Object {
+                          "black": "#000",
+                          "darkBlack": "rgba(0, 0, 0, 0.87)",
+                          "darkWhite": "rgba(255, 255, 255, 0.87)",
+                          "faintBlack": "rgba(0, 0, 0, 0.12)",
+                          "fullBlack": "rgba(0, 0, 0, 1)",
+                          "fullWhite": "rgba(255, 255, 255, 1)",
+                          "lightBlack": "rgba(0, 0, 0, 0.54)",
+                          "lightWhite": "rgba(255, 255, 255, 0.54)",
+                          "minBlack": "rgba(0, 0, 0, 0.26)",
+                          "transparent": "rgba(0, 0, 0, 0)",
+                          "white": "#fff",
+                        },
+                        "error": Object {
+                          "100": "#ffcdd2",
+                          "200": "#ef9a9a",
+                          "300": "#e57373",
+                          "400": "#ef5350",
+                          "50": "#ffebee",
+                          "500": "#f44336",
+                          "600": "#e53935",
+                          "700": "#d32f2f",
+                          "800": "#c62828",
+                          "900": "#b71c1c",
+                          "A100": "#ff8a80",
+                          "A200": "#ff5252",
+                          "A400": "#ff1744",
+                          "A700": "#d50000",
+                          "contrastDefaultColor": "light",
+                        },
+                        "getContrastText": [Function],
+                        "grey": Object {
+                          "100": "#f5f5f5",
+                          "200": "#eeeeee",
+                          "300": "#e0e0e0",
+                          "400": "#bdbdbd",
+                          "50": "#fafafa",
+                          "500": "#9e9e9e",
+                          "600": "#757575",
+                          "700": "#616161",
+                          "800": "#424242",
+                          "900": "#212121",
+                          "A100": "#d5d5d5",
+                          "A200": "#aaaaaa",
+                          "A400": "#303030",
+                          "A700": "#616161",
+                          "contrastDefaultColor": "dark",
+                        },
+                        "input": Object {
+                          "bottomLine": "rgba(0, 0, 0, 0.42)",
+                          "disabled": "rgba(0, 0, 0, 0.42)",
+                          "helperText": "rgba(0, 0, 0, 0.54)",
+                          "inputText": "rgba(0, 0, 0, 0.87)",
+                          "labelText": "rgba(0, 0, 0, 0.54)",
+                        },
+                        "primary": Object {
+                          "100": "#c5cae9",
+                          "200": "#9fa8da",
+                          "300": "#7986cb",
+                          "400": "#5c6bc0",
+                          "50": "#e8eaf6",
+                          "500": "#3f51b5",
+                          "600": "#3949ab",
+                          "700": "#303f9f",
+                          "800": "#283593",
+                          "900": "#1a237e",
+                          "A100": "#8c9eff",
+                          "A200": "#536dfe",
+                          "A400": "#3d5afe",
+                          "A700": "#304ffe",
+                          "contrastDefaultColor": "light",
+                        },
+                        "secondary": Object {
+                          "100": "#f8bbd0",
+                          "200": "#f48fb1",
+                          "300": "#f06292",
+                          "400": "#ec407a",
+                          "50": "#fce4ec",
+                          "500": "#e91e63",
+                          "600": "#d81b60",
+                          "700": "#c2185b",
+                          "800": "#ad1457",
+                          "900": "#880e4f",
+                          "A100": "#ff80ab",
+                          "A200": "#ff4081",
+                          "A400": "#f50057",
+                          "A700": "#c51162",
+                          "contrastDefaultColor": "light",
+                        },
+                        "shades": Object {
+                          "dark": Object {
+                            "action": Object {
+                              "active": "rgba(255, 255, 255, 1)",
+                              "disabled": "rgba(255, 255, 255, 0.3)",
+                            },
+                            "background": Object {
+                              "appBar": "#212121",
+                              "contentFrame": "#212121",
+                              "default": "#303030",
+                              "paper": "#424242",
+                            },
+                            "input": Object {
+                              "bottomLine": "rgba(255, 255, 255, 0.7)",
+                              "disabled": "rgba(255, 255, 255, 0.5)",
+                              "helperText": "rgba(255, 255, 255, 0.7)",
+                              "inputText": "rgba(255, 255, 255, 1)",
+                              "labelText": "rgba(255, 255, 255, 0.7)",
+                            },
+                            "text": Object {
+                              "disabled": "rgba(255, 255, 255, 0.5)",
+                              "divider": "rgba(255, 255, 255, 0.12)",
+                              "hint": "rgba(255, 255, 255, 0.5)",
+                              "icon": "rgba(255, 255, 255, 0.5)",
+                              "lightDivider": "rgba(255, 255, 255, 0.075)",
+                              "primary": "rgba(255, 255, 255, 1)",
+                              "secondary": "rgba(255, 255, 255, 0.7)",
+                            },
+                          },
+                          "light": Object {
+                            "action": Object {
+                              "active": "rgba(0, 0, 0, 0.54)",
+                              "disabled": "rgba(0, 0, 0, 0.26)",
+                            },
+                            "background": Object {
+                              "appBar": "#f5f5f5",
+                              "contentFrame": "#eeeeee",
+                              "default": "#fafafa",
+                              "paper": "#fff",
+                            },
+                            "input": Object {
+                              "bottomLine": "rgba(0, 0, 0, 0.42)",
+                              "disabled": "rgba(0, 0, 0, 0.42)",
+                              "helperText": "rgba(0, 0, 0, 0.54)",
+                              "inputText": "rgba(0, 0, 0, 0.87)",
+                              "labelText": "rgba(0, 0, 0, 0.54)",
+                            },
+                            "text": Object {
+                              "disabled": "rgba(0, 0, 0, 0.38)",
+                              "divider": "rgba(0, 0, 0, 0.12)",
+                              "hint": "rgba(0, 0, 0, 0.38)",
+                              "icon": "rgba(0, 0, 0, 0.38)",
+                              "lightDivider": "rgba(0, 0, 0, 0.075)",
+                              "primary": "rgba(0, 0, 0, 0.87)",
+                              "secondary": "rgba(0, 0, 0, 0.54)",
+                            },
+                          },
+                        },
+                        "text": Object {
+                          "disabled": "rgba(0, 0, 0, 0.38)",
+                          "divider": "rgba(0, 0, 0, 0.12)",
+                          "hint": "rgba(0, 0, 0, 0.38)",
+                          "icon": "rgba(0, 0, 0, 0.38)",
+                          "lightDivider": "rgba(0, 0, 0, 0.075)",
+                          "primary": "rgba(0, 0, 0, 0.87)",
+                          "secondary": "rgba(0, 0, 0, 0.54)",
+                        },
+                        "type": "light",
+                      },
+                      "shadows": Array [
+                        "none",
+                        "0px 1px 3px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 2px 1px -1px rgba(0, 0, 0, 0.12)",
+                        "0px 1px 5px 0px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 3px 1px -2px rgba(0, 0, 0, 0.12)",
+                        "0px 1px 8px 0px rgba(0, 0, 0, 0.2),0px 3px 4px 0px rgba(0, 0, 0, 0.14),0px 3px 3px -2px rgba(0, 0, 0, 0.12)",
+                        "0px 2px 4px -1px rgba(0, 0, 0, 0.2),0px 4px 5px 0px rgba(0, 0, 0, 0.14),0px 1px 10px 0px rgba(0, 0, 0, 0.12)",
+                        "0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 5px 8px 0px rgba(0, 0, 0, 0.14),0px 1px 14px 0px rgba(0, 0, 0, 0.12)",
+                        "0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 6px 10px 0px rgba(0, 0, 0, 0.14),0px 1px 18px 0px rgba(0, 0, 0, 0.12)",
+                        "0px 4px 5px -2px rgba(0, 0, 0, 0.2),0px 7px 10px 1px rgba(0, 0, 0, 0.14),0px 2px 16px 1px rgba(0, 0, 0, 0.12)",
+                        "0px 5px 5px -3px rgba(0, 0, 0, 0.2),0px 8px 10px 1px rgba(0, 0, 0, 0.14),0px 3px 14px 2px rgba(0, 0, 0, 0.12)",
+                        "0px 5px 6px -3px rgba(0, 0, 0, 0.2),0px 9px 12px 1px rgba(0, 0, 0, 0.14),0px 3px 16px 2px rgba(0, 0, 0, 0.12)",
+                        "0px 6px 6px -3px rgba(0, 0, 0, 0.2),0px 10px 14px 1px rgba(0, 0, 0, 0.14),0px 4px 18px 3px rgba(0, 0, 0, 0.12)",
+                        "0px 6px 7px -4px rgba(0, 0, 0, 0.2),0px 11px 15px 1px rgba(0, 0, 0, 0.14),0px 4px 20px 3px rgba(0, 0, 0, 0.12)",
+                        "0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 12px 17px 2px rgba(0, 0, 0, 0.14),0px 5px 22px 4px rgba(0, 0, 0, 0.12)",
+                        "0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 13px 19px 2px rgba(0, 0, 0, 0.14),0px 5px 24px 4px rgba(0, 0, 0, 0.12)",
+                        "0px 7px 9px -4px rgba(0, 0, 0, 0.2),0px 14px 21px 2px rgba(0, 0, 0, 0.14),0px 5px 26px 4px rgba(0, 0, 0, 0.12)",
+                        "0px 8px 9px -5px rgba(0, 0, 0, 0.2),0px 15px 22px 2px rgba(0, 0, 0, 0.14),0px 6px 28px 5px rgba(0, 0, 0, 0.12)",
+                        "0px 8px 10px -5px rgba(0, 0, 0, 0.2),0px 16px 24px 2px rgba(0, 0, 0, 0.14),0px 6px 30px 5px rgba(0, 0, 0, 0.12)",
+                        "0px 8px 11px -5px rgba(0, 0, 0, 0.2),0px 17px 26px 2px rgba(0, 0, 0, 0.14),0px 6px 32px 5px rgba(0, 0, 0, 0.12)",
+                        "0px 9px 11px -5px rgba(0, 0, 0, 0.2),0px 18px 28px 2px rgba(0, 0, 0, 0.14),0px 7px 34px 6px rgba(0, 0, 0, 0.12)",
+                        "0px 9px 12px -6px rgba(0, 0, 0, 0.2),0px 19px 29px 2px rgba(0, 0, 0, 0.14),0px 7px 36px 6px rgba(0, 0, 0, 0.12)",
+                        "0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 20px 31px 3px rgba(0, 0, 0, 0.14),0px 8px 38px 7px rgba(0, 0, 0, 0.12)",
+                        "0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 21px 33px 3px rgba(0, 0, 0, 0.14),0px 8px 40px 7px rgba(0, 0, 0, 0.12)",
+                        "0px 10px 14px -6px rgba(0, 0, 0, 0.2),0px 22px 35px 3px rgba(0, 0, 0, 0.14),0px 8px 42px 7px rgba(0, 0, 0, 0.12)",
+                        "0px 11px 14px -7px rgba(0, 0, 0, 0.2),0px 23px 36px 3px rgba(0, 0, 0, 0.14),0px 9px 44px 8px rgba(0, 0, 0, 0.12)",
+                        "0px 11px 15px -7px rgba(0, 0, 0, 0.2),0px 24px 38px 3px rgba(0, 0, 0, 0.14),0px 9px 46px 8px rgba(0, 0, 0, 0.12)",
+                      ],
+                      "spacing": Object {
+                        "unit": 8,
+                      },
+                      "transitions": Object {
+                        "create": [Function],
+                        "duration": Object {
+                          "complex": 375,
+                          "enteringScreen": 225,
+                          "leavingScreen": 195,
+                          "short": 250,
+                          "shorter": 200,
+                          "shortest": 150,
+                          "standard": 300,
+                        },
+                        "easing": Object {
+                          "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                          "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                          "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                          "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                        },
+                        "getAutoHeightDuration": [Function],
+                      },
+                      "typography": Object {
+                        "body1": Object {
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                          "fontSize": "0.875rem",
+                          "fontWeight": 400,
+                          "lineHeight": "1.46429em",
+                        },
+                        "body2": Object {
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                          "fontSize": "0.875rem",
+                          "fontWeight": 500,
+                          "lineHeight": "1.71429em",
+                        },
+                        "button": Object {
+                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                          "fontSize": "0.875rem",
+                          "fontWeight": 500,
+                          "textTransform": "uppercase",
+                        },
+                        "caption": Object {
+                          "color": "rgba(0, 0, 0, 0.54)",
+                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                          "fontSize": "0.75rem",
+                          "fontWeight": 400,
+                          "lineHeight": "1.375em",
+                        },
+                        "display1": Object {
+                          "color": "rgba(0, 0, 0, 0.54)",
+                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                          "fontSize": "2.125rem",
+                          "fontWeight": 400,
+                          "lineHeight": "1.20588em",
+                          "marginLeft": "-.04em",
+                        },
+                        "display2": Object {
+                          "color": "rgba(0, 0, 0, 0.54)",
+                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                          "fontSize": "2.8125rem",
+                          "fontWeight": 400,
+                          "lineHeight": "1.06667em",
+                          "marginLeft": "-.04em",
+                        },
+                        "display3": Object {
+                          "color": "rgba(0, 0, 0, 0.54)",
+                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                          "fontSize": "3.5rem",
+                          "fontWeight": 400,
+                          "letterSpacing": "-.02em",
+                          "lineHeight": "1.30357em",
+                          "marginLeft": "-.04em",
+                        },
+                        "display4": Object {
+                          "color": "rgba(0, 0, 0, 0.54)",
+                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                          "fontSize": "7rem",
+                          "fontWeight": 300,
+                          "letterSpacing": "-.04em",
+                          "lineHeight": "1.14286em",
+                          "marginLeft": "-.06em",
+                        },
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": 14,
+                        "fontWeightLight": 300,
+                        "fontWeightMedium": 500,
+                        "fontWeightRegular": 400,
+                        "headline": Object {
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                          "fontSize": "1.5rem",
+                          "fontWeight": 400,
+                          "lineHeight": "1.35417em",
+                        },
+                        "pxToRem": [Function],
+                        "subheading": Object {
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                          "fontSize": "1rem",
+                          "fontWeight": 400,
+                          "lineHeight": "1.5em",
+                        },
+                        "title": Object {
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                          "fontSize": "1.3125rem",
+                          "fontWeight": 500,
+                          "lineHeight": "1.16667em",
+                        },
+                      },
+                      "zIndex": Object {
+                        "appBar": 1100,
+                        "dialog": 1500,
+                        "dialogOverlay": 1400,
+                        "drawerOverlay": 1200,
+                        "layer": 2000,
+                        "menu": 1000,
+                        "mobileStepper": 900,
+                        "navDrawer": 1300,
+                        "popover": 2100,
+                        "snackbar": 2900,
+                        "tooltip": 3000,
+                      },
+                    }
+                  }
+                  transitionDuration="auto"
+                >
+                  <withStyles(Popover)
+                    PaperProps={
+                      Object {
+                        "classes": Object {
+                          "root": "MuiMenu-paper-69",
+                        },
+                      }
+                    }
+                    anchorEl={null}
+                    anchorOrigin={
+                      Object {
+                        "horizontal": "left",
+                        "vertical": "top",
+                      }
+                    }
+                    classes={undefined}
+                    getContentAnchorEl={[Function]}
+                    id="todo-list-item-menu"
+                    onEnter={[Function]}
+                    onRequestClose={[Function]}
+                    open={false}
+                    transformOrigin={
+                      Object {
+                        "horizontal": "left",
+                        "vertical": "top",
+                      }
+                    }
+                    transitionDuration="auto"
+                  >
+                    <Popover
+                      PaperProps={
+                        Object {
+                          "classes": Object {
+                            "root": "MuiMenu-paper-69",
+                          },
+                        }
+                      }
+                      anchorEl={null}
+                      anchorOrigin={
+                        Object {
+                          "horizontal": "left",
+                          "vertical": "top",
+                        }
+                      }
+                      classes={
+                        Object {
+                          ".MuiPopover-paper-70:focus": "MuiPopover-paper-70:focus",
+                          "paper": "MuiPopover-paper-70",
+                        }
+                      }
+                      elevation={8}
+                      getContentAnchorEl={[Function]}
+                      id="todo-list-item-menu"
+                      marginThreshold={16}
+                      onEnter={[Function]}
+                      onRequestClose={[Function]}
+                      open={false}
+                      transformOrigin={
+                        Object {
+                          "horizontal": "left",
+                          "vertical": "top",
+                        }
+                      }
+                      transitionDuration="auto"
+                    >
+                      <withStyles(Modal)
+                        BackdropInvisible={true}
+                        id="todo-list-item-menu"
+                        onRequestClose={[Function]}
+                        show={false}
+                      >
+                        <Modal
+                          BackdropComponent={[Function]}
+                          BackdropInvisible={true}
+                          BackdropTransitionDuration={300}
+                          classes={
+                            Object {
+                              "hidden": "MuiModal-hidden-72",
+                              "root": "MuiModal-root-71",
+                            }
+                          }
+                          disableBackdrop={false}
+                          id="todo-list-item-menu"
+                          ignoreBackdropClick={false}
+                          ignoreEscapeKeyUp={false}
+                          keepMounted={false}
+                          modalManager={
+                            Object {
+                              "add": [Function],
+                              "isTopModal": [Function],
+                              "remove": [Function],
+                            }
+                          }
+                          onRequestClose={[Function]}
+                          show={false}
+                        />
+                      </withStyles(Modal)>
+                    </Popover>
+                  </withStyles(Popover)>
+                </Menu>
+              </withStyles(Menu)>
+            </div>
+          </TodoListItemMenu>
+        </div>
+      </ListItemSecondaryAction>
+    </withStyles(ListItemSecondaryAction)>
+  </div>
+</ListItem>
+`;

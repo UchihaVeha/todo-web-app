@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoFilters/FilterByDate component should render component 1`] = `
+<div>
+  <div
+    className="FilterByDate-day-1"
+  >
+    <withStyles(IconButton)
+      aria-label="Menu"
+      className="FilterByDate-button-4"
+      color="inherit"
+      onClick={[Function]}
+    >
+      <pure(ArrowBack) />
+    </withStyles(IconButton)>
+    <div
+      className="FilterByDate-pointed-2"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <withStyles(Typography)
+        color="inherit"
+        type="display4"
+      >
+        29
+      </withStyles(Typography)>
+    </div>
+    <withStyles(IconButton)
+      aria-label="Menu"
+      className="FilterByDate-button-4"
+      color="inherit"
+      onClick={[Function]}
+    >
+      <pure(ArrowForward) />
+    </withStyles(IconButton)>
+  </div>
+  <div
+    className="FilterByDate-pointed-2"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <withStyles(Typography)
+      align="center"
+      color="secondary"
+      type="title"
+    >
+      October
+       
+      2017
+    </withStyles(Typography)>
+  </div>
+  <DatePicker
+    autoOk={true}
+    className="FilterByDate-datePicker-3"
+    container="dialog"
+    disableYearSelection={false}
+    disabled={false}
+    firstDayOfWeek={1}
+    hideCalendarDate={false}
+    id="datepicker"
+    onChange={[Function]}
+    openToYearSelection={false}
+    style={Object {}}
+    value={2017-10-28T21:00:00.000Z}
+  />
+</div>
+`;
+
+exports[`TodoFilters/FilterByDate component should render withStyles 1`] = `
+<FilterByDate
+  classes={
+    Object {
+      "button": "FilterByDate-button-4",
+      "datePicker": "FilterByDate-datePicker-3",
+      "day": "FilterByDate-day-1",
+      "pointed": "FilterByDate-pointed-2",
+    }
+  }
+  value="Sun Oct 29 2017"
+/>
+`;

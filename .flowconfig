@@ -1,0 +1,24 @@
+[ignore]
+<PROJECT_ROOT>/public
+<PROJECT_ROOT>/storybook
+<PROJECT_ROOT>/webpack
+.*/node_modules/styled-components/.*
+.*/node_modules/react-event-listener/src/.*
+.*/node_modules/fbjs/lib/partitionObjectByKey.js
+.*/node_modules/react-swipeable-views/src/.*
+.*/node_modules/material-ui/test-utils/.*
+.*/node_modules/radium/.*
+.*/node_modules/eslint-plugin-jsx-a11y/.*
+.*/node_modules/babel-plugin-transform-react-remove-prop-types/*
+.*/node_modules/redux-persist/es/*
+.*/node_modules/redux-persist/lib/*
+[include]
+
+[libs]
+./src/types
+
+[options]
+emoji=true
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=src
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe

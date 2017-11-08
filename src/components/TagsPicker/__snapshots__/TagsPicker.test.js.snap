@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagsPicker component should render component 1`] = `
+<FormControl
+  classes={
+    Object {
+      "fullWidth": "MuiFormControl-fullWidth-8",
+      "marginDense": "MuiFormControl-marginDense-7",
+      "marginNormal": "MuiFormControl-marginNormal-6",
+      "root": "MuiFormControl-root-5",
+    }
+  }
+  component="div"
+  disabled={false}
+  error={false}
+  fullWidth={true}
+  margin="dense"
+  required={false}
+>
+  <withStyles(FormLabel)>
+    Tags
+  </withStyles(FormLabel)>
+  <div
+    className="TagsPicker-wrapper-2"
+  >
+    <withStyles(Chip)
+      className="TagsPicker-chip-1"
+      key="test tag"
+      label="test tag"
+      onRequestDelete={[Function]}
+    />
+    <div
+      className="TagsPicker-inputWrapper-3"
+    >
+      <input
+        className="TagsPicker-input-4"
+        onBlur={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Add Tag"
+      />
+    </div>
+  </div>
+  <withStyles(FormHelperText) />
+</FormControl>
+`;
+
+exports[`TagsPicker component should render withStyles 1`] = `
+<withStyles(FormControl)
+  error={false}
+  fullWidth={true}
+  margin="dense"
+>
+  <withStyles(FormLabel)>
+    Tags
+  </withStyles(FormLabel)>
+  <div
+    className="TagsPicker-wrapper-2"
+  >
+    <withStyles(Chip)
+      className="TagsPicker-chip-1"
+      key="test tag"
+      label="test tag"
+      onRequestDelete={[Function]}
+    />
+    <div
+      className="TagsPicker-inputWrapper-3"
+    >
+      <input
+        className="TagsPicker-input-4"
+        onBlur={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Add Tag"
+      />
+    </div>
+  </div>
+  <withStyles(FormHelperText) />
+</withStyles(FormControl)>
+`;

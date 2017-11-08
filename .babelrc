@@ -1,0 +1,40 @@
+{
+  "presets": [
+    [ "env", {
+      "modules": false
+    }],
+    "react",
+    "stage-0",
+    "flow"
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "helpers": false,
+      "polyfill": false,
+      "regenerator": true,
+      "moduleName": "babel-runtime"
+    }]
+  ],
+  "env": {
+    "production": {
+      "plugins": ["transform-react-remove-prop-types"]
+    },
+    "development": {
+      "plugins": [
+        "flow-react-proptypes",
+        // ["react-flow-props-to-prop-types", {"resolveOpts": { "moduleDirectory": ["node_modules", "src"]}}],
+        "react-hot-loader/babel"
+      ]
+    },
+    "test": {
+      "presets": [
+        ["env", { "modules": "commonjs" }],
+        "stage-0"
+      ],
+      "plugins": [
+        "transform-es2015-modules-commonjs"
+      ]
+    }
+  }
+
+}

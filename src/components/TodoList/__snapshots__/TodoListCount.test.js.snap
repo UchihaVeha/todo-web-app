@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList/TodoListCount component should render pure 1`] = `
+<Paper
+  classes={
+    Object {
+      "root": "MuiPaper-root-4",
+      "rounded": "MuiPaper-rounded-5",
+      "shadow0": "MuiPaper-shadow0-6",
+      "shadow1": "MuiPaper-shadow1-7",
+      "shadow10": "MuiPaper-shadow10-16",
+      "shadow11": "MuiPaper-shadow11-17",
+      "shadow12": "MuiPaper-shadow12-18",
+      "shadow13": "MuiPaper-shadow13-19",
+      "shadow14": "MuiPaper-shadow14-20",
+      "shadow15": "MuiPaper-shadow15-21",
+      "shadow16": "MuiPaper-shadow16-22",
+      "shadow17": "MuiPaper-shadow17-23",
+      "shadow18": "MuiPaper-shadow18-24",
+      "shadow19": "MuiPaper-shadow19-25",
+      "shadow2": "MuiPaper-shadow2-8",
+      "shadow20": "MuiPaper-shadow20-26",
+      "shadow21": "MuiPaper-shadow21-27",
+      "shadow22": "MuiPaper-shadow22-28",
+      "shadow23": "MuiPaper-shadow23-29",
+      "shadow24": "MuiPaper-shadow24-30",
+      "shadow3": "MuiPaper-shadow3-9",
+      "shadow4": "MuiPaper-shadow4-10",
+      "shadow5": "MuiPaper-shadow5-11",
+      "shadow6": "MuiPaper-shadow6-12",
+      "shadow7": "MuiPaper-shadow7-13",
+      "shadow8": "MuiPaper-shadow8-14",
+      "shadow9": "MuiPaper-shadow9-15",
+    }
+  }
+  component="div"
+  elevation={2}
+  square={true}
+>
+  <div
+    className="MuiPaper-root-4 MuiPaper-shadow2-8"
+  >
+    <div
+      className="TodoListCount-total-1"
+    >
+      <withStyles(Typography)
+        className="TodoListCount-label-2"
+        color="inherit"
+        type="caption"
+      >
+        <Typography
+          align="inherit"
+          className="TodoListCount-label-2"
+          classes={
+            Object {
+              "alignCenter": "MuiTypography-alignCenter-44",
+              "alignJustify": "MuiTypography-alignJustify-46",
+              "alignLeft": "MuiTypography-alignLeft-43",
+              "alignRight": "MuiTypography-alignRight-45",
+              "body1": "MuiTypography-body1-40",
+              "body2": "MuiTypography-body2-39",
+              "button": "MuiTypography-button-42",
+              "caption": "MuiTypography-caption-41",
+              "colorAccent": "MuiTypography-colorAccent-53",
+              "colorError": "MuiTypography-colorError-54",
+              "colorInherit": "MuiTypography-colorInherit-50",
+              "colorPrimary": "MuiTypography-colorPrimary-51",
+              "colorSecondary": "MuiTypography-colorSecondary-52",
+              "display1": "MuiTypography-display1-35",
+              "display2": "MuiTypography-display2-34",
+              "display3": "MuiTypography-display3-33",
+              "display4": "MuiTypography-display4-32",
+              "gutterBottom": "MuiTypography-gutterBottom-48",
+              "headline": "MuiTypography-headline-36",
+              "noWrap": "MuiTypography-noWrap-47",
+              "paragraph": "MuiTypography-paragraph-49",
+              "root": "MuiTypography-root-31",
+              "subheading": "MuiTypography-subheading-38",
+              "title": "MuiTypography-title-37",
+            }
+          }
+          color="inherit"
+          gutterBottom={false}
+          headlineMapping={
+            Object {
+              "body1": "p",
+              "body2": "aside",
+              "display1": "h1",
+              "display2": "h1",
+              "display3": "h1",
+              "display4": "h1",
+              "headline": "h1",
+              "subheading": "h3",
+              "title": "h2",
+            }
+          }
+          noWrap={false}
+          paragraph={false}
+          type="caption"
+        >
+          <span
+            className="MuiTypography-root-31 MuiTypography-caption-41 MuiTypography-colorInherit-50 TodoListCount-label-2"
+          >
+            TOTAL: 
+            0
+          </span>
+        </Typography>
+      </withStyles(Typography)>
+      <withStyles(Button)
+        className="TodoListCount-button-3"
+        color="accent"
+        fab={true}
+        onClick={[Function]}
+      >
+        <Button
+          className="TodoListCount-button-3"
+          classes={
+            Object {
+              ".MuiButton-fab-68:active": "MuiButton-fab-68:active",
+              ".MuiButton-flatAccent-59:hover": "MuiButton-flatAccent-59:hover",
+              ".MuiButton-flatContrast-60:hover": "MuiButton-flatContrast-60:hover",
+              ".MuiButton-flatPrimary-58:hover": "MuiButton-flatPrimary-58:hover",
+              ".MuiButton-raised-62.MuiButton-disabled-67": "MuiButton-raised-62.MuiButton-disabled-67",
+              ".MuiButton-raised-62.MuiButton-keyboardFocused-63": "MuiButton-raised-62.MuiButton-keyboardFocused-63",
+              ".MuiButton-raised-62:active": "MuiButton-raised-62:active",
+              ".MuiButton-raised-62:hover": "MuiButton-raised-62:hover",
+              ".MuiButton-raised-62:hover.MuiButton-disabled-67": "MuiButton-raised-62:hover.MuiButton-disabled-67",
+              ".MuiButton-raisedAccent-65:hover": "MuiButton-raisedAccent-65:hover",
+              ".MuiButton-raisedPrimary-64:hover": "MuiButton-raisedPrimary-64:hover",
+              ".MuiButton-root-55:hover": "MuiButton-root-55:hover",
+              ".MuiButton-root-55:hover.MuiButton-disabled-67": "MuiButton-root-55:hover.MuiButton-disabled-67",
+              "colorInherit": "MuiButton-colorInherit-61",
+              "dense": "MuiButton-dense-56",
+              "disabled": "MuiButton-disabled-67",
+              "fab": "MuiButton-fab-68",
+              "flatAccent": "MuiButton-flatAccent-59",
+              "flatContrast": "MuiButton-flatContrast-60",
+              "flatPrimary": "MuiButton-flatPrimary-58",
+              "keyboardFocused": "MuiButton-keyboardFocused-63",
+              "label": "MuiButton-label-57",
+              "raised": "MuiButton-raised-62",
+              "raisedAccent": "MuiButton-raisedAccent-65",
+              "raisedContrast": "MuiButton-raisedContrast-66",
+              "raisedPrimary": "MuiButton-raisedPrimary-64",
+              "root": "MuiButton-root-55",
+            }
+          }
+          color="accent"
+          dense={false}
+          disableFocusRipple={false}
+          disableRipple={false}
+          disabled={false}
+          fab={true}
+          onClick={[Function]}
+          raised={false}
+          type="button"
+        >
+          <withStyles(ButtonBase)
+            className="MuiButton-root-55 MuiButton-raised-62 MuiButton-fab-68 MuiButton-raisedAccent-65 TodoListCount-button-3"
+            disableRipple={false}
+            disabled={false}
+            focusRipple={true}
+            keyboardFocusedClassName="MuiButton-keyboardFocused-63"
+            onClick={[Function]}
+            type="button"
+          >
+            <ButtonBase
+              centerRipple={false}
+              className="MuiButton-root-55 MuiButton-raised-62 MuiButton-fab-68 MuiButton-raisedAccent-65 TodoListCount-button-3"
+              classes={
+                Object {
+                  ".MuiButtonBase-root-69::-moz-focus-inner": "MuiButtonBase-root-69::-moz-focus-inner",
+                  "disabled": "MuiButtonBase-disabled-70",
+                  "root": "MuiButtonBase-root-69",
+                }
+              }
+              disableRipple={false}
+              disabled={false}
+              focusRipple={true}
+              keyboardFocusedClassName="MuiButton-keyboardFocused-63"
+              onClick={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <button
+                className="MuiButtonBase-root-69 MuiButton-root-55 MuiButton-raised-62 MuiButton-fab-68 MuiButton-raisedAccent-65 TodoListCount-button-3"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-57"
+                >
+                  <pure(Add)>
+                    <Add>
+                      <withStyles(SvgIcon)>
+                        <SvgIcon
+                          classes={
+                            Object {
+                              "root": "MuiSvgIcon-root-71",
+                            }
+                          }
+                          viewBox="0 0 24 24"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            className="MuiSvgIcon-root-71"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                            />
+                          </svg>
+                        </SvgIcon>
+                      </withStyles(SvgIcon)>
+                    </Add>
+                  </pure(Add)>
+                </span>
+                <withStyles(TouchRipple)
+                  center={false}
+                  innerRef={[Function]}
+                >
+                  <TouchRipple
+                    center={false}
+                    classes={
+                      Object {
+                        "0%": "%",
+                        "100%": "00%",
+                        "50%": "0%",
+                        "ripple": "MuiTouchRipple-ripple-76",
+                        "rippleFast": "MuiTouchRipple-rippleFast-78",
+                        "rippleVisible": "MuiTouchRipple-rippleVisible-77",
+                        "root": "MuiTouchRipple-root-72",
+                        "wrapper": "MuiTouchRipple-wrapper-73",
+                        "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-74",
+                        "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-75",
+                      }
+                    }
+                  >
+                    <TransitionGroup
+                      childFactory={[Function]}
+                      className="MuiTouchRipple-root-72"
+                      component="span"
+                      enter={true}
+                      exit={true}
+                    >
+                      <span
+                        className="MuiTouchRipple-root-72"
+                      />
+                    </TransitionGroup>
+                  </TouchRipple>
+                </withStyles(TouchRipple)>
+              </button>
+            </ButtonBase>
+          </withStyles(ButtonBase)>
+        </Button>
+      </withStyles(Button)>
+    </div>
+  </div>
+</Paper>
+`;
