@@ -9,8 +9,7 @@
     "npm": "5.5.1"
   },
   "scripts": {
-    "heroku-prebuild": "yarn install --production=false",
-    "heroku-postbuild": "yarn run build",
+    "heroku-postbuild": "yarn install --production=false && yarn run build",
     "start": "node ./node_modules/.bin/pm2 start ./server-build.js -i max --attach",
     "test": "npm run lint & npx jest",
     "test:watch": "npx jest --watch --verbose",
