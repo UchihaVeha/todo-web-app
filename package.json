@@ -1,11 +1,16 @@
 {
-  "name": "time-logger-web",
-  "version": "0.0.2",
-  "description": "",
+  "name": "todo-web-app",
+  "version": "0.0.1",
+  "description": "todo web app",
   "main": "index.js",
   "author": "Vitaliy Kolodeyev",
-  "license": "ISC",
+  "engines": {
+    "node": "8.9.0",
+    "npm": "5.5.1"
+  },
   "scripts": {
+    "heroku-prebuild": "npm install --only=dev",
+    "heroku-postbuild": "npm run build",
     "start": "node server.js",
     "test": "npm run lint & npx jest",
     "test:watch": "npx jest --watch --verbose",
