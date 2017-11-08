@@ -1,9 +1,10 @@
-[![Build Status](https://travis-ci.org/UchihaVeha/todo-web-app.svg?branch=master)](https://travis-ci.org/UchihaVeha/todo-web-app)
+[![Build Status](https://travis-ci.org/UchihaVeha/todo-web-app.svg?branch=master)](https://travis-ci.org/UchihaVeha/todo-web-app) ![https://veha-todo-web-app.herokuapp.com](http://heroku-badge.herokuapp.com/?app=veha-todo-api-app&root=v1/ping)
 
+# Todo Web App
  I use this project to testing new technologies and latest versions of libraries.
 
-+ **todo-web-app**
-+ [todo-api-app](https://github.com/UchihaVeha/todo-api-app)
++ **todo-web-app** - [demo](https://veha-todo-web-app.herokuapp.com)
++ [todo-api-app](https://github.com/UchihaVeha/todo-api-app) - [demo](https://veha-todo-api-app.herokuapp.com/)
 
 ## Features
 

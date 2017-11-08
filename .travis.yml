@@ -2,3 +2,11 @@ sudo: false
 language: node_js
 node_js: 8
 cache: yarn
+deploy:
+  provider: heroku
+  api_key:
+    secure: V51Yg2gdlIpbcd0P9ONb4ErxxANAzmLJP4/2yOOQwWCqvjXSU1HNzhR/Xso95EJK+Ls5ulWl7Frg4QzU04R+MiZxfiU2j3HNgEy+sCucM/s3vVLFraraOm7irEmzEXKGppZuLFCpmwIM1aHRRqSGMnPNX3EA8id/mhA+zcPBXQLxlO2mnz24PJmRn+2WfJARGE8HZo9iTCibJsBirToJJRcOaLEOngARElr+E0pHvzT02NDjQnfaGUhVm1mT8J/KfshVbu/4nt85pQkqmd6XS8bIjZmTxK7THOJpiiD1l+e03QIaTqjf4xJAontwRHAvafLrXxiKQ/2uIEoAhQjbvRooq/8P+rT4TrAc0WoX70O0LwqwUV7f0dYvxYwv2GGKmC4Ezra0ZUtdfTAzT/YY+eWyLv3ueuVdcmowHKfbv8t3+zSM115TyXN5F7EOPob40uF+zQ/1qcpOh72H2yoVaCJBKbDgseiKOcRZSIKoTGrXHzi+UmAMxq/i+dYUmbgOu1WK70mCacD9pD5Pewrt7S27IfLDYyg7A6TMKRSuUj0c8QDQ3OdWC1KS/0RW41f5H+eZitJ9CcXX7kARu03SU7rmwdEmUbVWTmJDz2KdxGl2+aeRJZnCWeh2Ql2Mpi9aiUqaFY4gfigSXttTnnRap/4BCJxTFGf8xFMJohcg/wI=
+  app: veha-todo-web-app
+  on:
+    branch: master
+    repo: UchihaVeha/todo-web-app
