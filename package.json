@@ -9,9 +9,9 @@
     "npm": "5.5.1"
   },
   "scripts": {
-    "heroku-prebuild": "npm install --only=dev",
+    "heroku-prebuild": "yarn install --production=false",
     "heroku-postbuild": "npm run build",
-    "start": "node server.js",
+    "start": "node ./node_modules/.bin/pm2 start server.js -i max --attach",
     "test": "npm run lint & npx jest",
     "test:watch": "npx jest --watch --verbose",
     "start:dev": "node webpack/webpack-dev-server",
