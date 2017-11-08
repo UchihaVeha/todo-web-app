@@ -12,7 +12,7 @@
     "heroku-prebuild": "yarn install --production=false",
     "heroku-postbuild": "yarn run build",
     "start": "node ./node_modules/.bin/pm2 start ./server.js -i max --attach",
-    "test": "yarn run lint & yarn run node_modules/.bin/jest",
+    "test": "npm run lint & npx run jest",
     "test:watch": "npx jest --watch --verbose",
     "start:dev": "node webpack/webpack-dev-server",
     "build:client": "node_modules/.bin/webpack --progress --profile --colors",
