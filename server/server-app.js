@@ -4,7 +4,7 @@ import compression from 'compression';
 import http from 'http';
 import path from 'path';
 
-const Host = process.env.HOST || 'localhost';
+const Host = process.env.HOST || '0.0.0.0';
 const Port = process.env.PORT || 3003;
 
 const app = new Express();
