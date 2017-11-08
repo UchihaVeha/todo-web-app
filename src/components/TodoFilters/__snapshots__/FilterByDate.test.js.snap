@@ -80,6 +80,6 @@ exports[`TodoFilters/FilterByDate component should render withStyles 1`] = `
       "pointed": "FilterByDate-pointed-2",
     }
   }
-  value="Sun Oct 29 2017"
+  value="2017-10-28T21:00:00.000Z"
 />
 `;

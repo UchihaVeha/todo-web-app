@@ -5,7 +5,7 @@
 + **todo-web-app**
 + [todo-api-app](https://github.com/UchihaVeha/todo-api-app)
 
-##Features
+## Features
 
 + [x] UI based on [Google's Material Design](https://www.google.com/design/spec/material-design/introduction.html)
 + [x] Authorization with using [JWT](https://jwt.io/)
@@ -14,7 +14,7 @@
 + [x] Hot module update ( components, reducers, sagas )
 + [ ] Server-side rendering for both type user (Render only basic UI for authorized user)
 
-##Technologies
+## Technologies
 + [x] [immutable](https://facebook.github.io/immutable-js/) - creating immutable collections of data.
 + [x] [jss](https://github.com/cssinjs/jss) - powerful abstraction over CSS.
 + [x] [material-ui](http://www.material-ui.com) - set of React components that implement [Google's 
