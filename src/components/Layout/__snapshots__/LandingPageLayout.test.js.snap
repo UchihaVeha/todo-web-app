@@ -5,19 +5,16 @@ exports[`Layout/LandingPageLayout component should render component 1`] = `
   className="LandingPageLayout-root-1"
 >
   <withStyles(GridWrapper)
+    className="LandingPageLayout-fullHeight-2"
     container={true}
     direction="column"
   >
     <withStyles(GridWrapper)
       item={true}
       lg={12}
-    >
-      <h1>
-        Header
-      </h1>
-    </withStyles(GridWrapper)>
+    />
     <withStyles(GridWrapper)
-      className="LandingPageLayout-content-2"
+      className="LandingPageLayout-fullHeight-2"
       item={true}
       lg={12}
     >
@@ -28,11 +25,7 @@ exports[`Layout/LandingPageLayout component should render component 1`] = `
     <withStyles(GridWrapper)
       item={true}
       lg={12}
-    >
-      <h1>
-        Footer
-      </h1>
-    </withStyles(GridWrapper)>
+    />
   </withStyles(GridWrapper)>
 </div>
 `;
@@ -41,7 +34,7 @@ exports[`Layout/LandingPageLayout component should render withStyles 1`] = `
 <LandingPageLayout
   classes={
     Object {
-      "content": "LandingPageLayout-content-2",
+      "fullHeight": "LandingPageLayout-fullHeight-2",
       "root": "LandingPageLayout-root-1",
     }
   }

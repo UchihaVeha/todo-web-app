@@ -40,4 +40,4 @@
 
 ## Next
  1. Create mobile application using [ReactNative](https://facebook.github.io/react-native/) 
- 2. Replace Rest Api on [graphql](http://graphql.org/learn/) using [Apollo](https://dev-blog.apollodata.com/) or [Relay](https://facebook.github.io/relay/)
+ 2. Replace Rest Api to [graphql](http://graphql.org/learn/) using [Apollo](https://dev-blog.apollodata.com/) or [Relay](https://facebook.github.io/relay/)
