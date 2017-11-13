@@ -1,13 +1,19 @@
 {
-  "name": "todo-web-app",
   "version": "0.0.1",
-  "description": "todo web app",
-  "main": "index.js",
-  "author": "Vitaliy Kolodeyev",
+  "name": "todo-web-app",
+  "description": "Todo List Web Application",
+  "author": "Vitalii Kolodieiev <uchihaveha@gmail.com> (https://github.com/UchihaVeha)",
+  "homepage": "https://github.com/UchihaVeha/todo-web-app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UchihaVeha/todo-web-app.git"
+  },
+  "license": "MIT",
   "engines": {
     "node": "8.9.0",
     "npm": "5.5.1"
   },
+  "main": "index.js",
   "scripts": {
     "heroku-postbuild": "yarn install --production=false && yarn run build",
     "start": "node ./node_modules/.bin/pm2 start ./server-build.js -i max --attach",

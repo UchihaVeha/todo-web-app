@@ -14,9 +14,8 @@ const styles = theme => ({
       margin: '0 auto'
     }
   },
-  content: {
-    flexGrow: 1,
-    textAlign: 'center'
+  fullHeight: {
+    flexGrow: 1
   }
 });
 
@@ -27,16 +26,12 @@ type Props = {
 
 const LandingPageLayout = ({ children, classes }: Props) => (
   <div className={classes.root}>
-    <Grid container direction="column">
-      <Grid item lg={12}>
-        <h1>Header</h1>
-      </Grid>
-      <Grid item lg={12} className={classes.content}>
+    <Grid container direction="column" className={classes.fullHeight}>
+      <Grid item lg={12} />
+      <Grid item lg={12} className={classes.fullHeight}>
         {children}
       </Grid>
-      <Grid item lg={12}>
-        <h1>Footer</h1>
-      </Grid>
+      <Grid item lg={12} />
     </Grid>
   </div>
 );
